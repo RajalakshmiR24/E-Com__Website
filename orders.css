@@ -1,6 +1,5 @@
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css');
 
-/* Reset CSS */
 * {
   margin: 0;
   padding: 0;
@@ -19,18 +18,16 @@ body {
   position: fixed;
   top: 0;
   left: 0;
-  background-color: #1A535C; /* Dark cyan */
+  background-color: #1A535C;
   padding-top: 20px;
   z-index: 3;
 }
 
 .sidebar h2 {
-  color: #F7FFF7; /* Mint cream */
+  color: #F7FFF7;
   text-align: center;
   margin-bottom: 20px;
-  writing-mode: vertical-lr; /* Rotates text vertically */
-  transform: rotate(180deg); /* Fixes text direction */
-  white-space: nowrap; /* Prevents text wrapping */
+
 }
 
 .sidebar ul {
@@ -38,27 +35,27 @@ body {
 }
 
 .sidebar ul li {
-  padding: 10px;
-  writing-mode: vertical-lr; /* Rotates text vertically */
-  transform: rotate(180deg); /* Fixes text direction */
+  padding: 18px;
+  writing-mode: vertical-lr;
+  transform: rotate(180deg);
 }
 
 .sidebar ul li a {
-  color: #FFE66D; /* Pastel yellow */
+  color: #FFE66D;
   text-decoration: none;
 
 }
 
 .sidebar ul li ul {
   display: none;
-  transform: rotate(180deg); /* Fixes text direction */
+  writing-mode: vertical-lr;
+  transform: rotate(180deg);
 
 }
 
 .sidebar ul li:hover ul {
   display: block;
   background-color: #1A535C;
-  overflow: hidden;
 }
 
 
@@ -66,7 +63,7 @@ body {
 header {
   padding: 20px;
   margin-left: 200px;
-  margin-right: 300px; /* Adjust for the width of the sidebar */
+  margin-right: 300px;
 }
 
 .header-left {
@@ -84,7 +81,7 @@ header {
 }
 
 .header-right .social-icon:hover {
-  color: #ffd700; /* Change to desired color on hover */
+  color: #ffd700;
 }
 
 h1 {
@@ -93,18 +90,17 @@ h1 {
 }
 
 /* Nav Bar */
-/* Base styles */
 nav {
   padding: 20px;
   margin-right: 300px;
-  margin-left: 200px; /* Adjust for the width of the sidebar */
+  margin-left: 200px;
 }
 
 nav ul {
   list-style-type: none;
   padding: 0;
   margin: 0;
-  text-align: center; /* Center align the menu items */
+  text-align: center;
 }
 
 nav ul li {
@@ -113,48 +109,36 @@ nav ul li {
   margin-bottom: 15px;
 }
 
-nav ul li:last-child {
-  margin-right: 20; /* Remove margin for the last item */
-}
-
 nav ul li a {
   text-decoration: none;
-  color: #355C7D; /* Dark slate gray */
+  color: #355C7D;
   padding: 5px 10px;
-  border: 1px solid #355C7D; /* Dark slate gray */
-  transition: background-color 0.3s, color 0.3s; /* Smooth transition for hover effect */
+  border: 1px solid #355C7D;
 }
 
 nav ul li a:hover {
-  background-color: #355C7D; /* Dark slate gray */
-  color: #F7FFF7; /* Mint cream */
+  background-color: #355C7D;
+  color: #F7FFF7;
 }
 
 .active {
-    background-color:#355C7D;
-    color: #fff;
-  }
+  background-color:#355C7D;
+  color: #fff;
+}
 
-/* Responsive styles */
 @media screen and (max-width: 768px) {
-  nav {
-    margin: 0;
-  }
-
   nav ul li {
     display: block;
     margin: 10px 0;
   }
 }
 
-
 /* Order Details */
 main {
   margin-top: 20px;
   margin-right: 300px;
-  margin-left: 200px; /* Adjust for the width of the sidebar */
+  margin-left: 200px;
 }
-
 
 .page-content {
     padding: 20px;
@@ -163,9 +147,8 @@ main {
 .record-header {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
     float: right;
-
 }
 
 .record-header .add,
@@ -186,7 +169,6 @@ main {
 
 .records table {
     width: 100%;
-    border-collapse: collapse;
 }
 
 .records th,
@@ -214,7 +196,17 @@ main {
     border-radius: 4px;
 }
 
-@media screen and (max-width: 600px) {
+.products-info a{
+  text-decoration: none;
+  color: black;
+}
+
+.products-info a:hover{
+  text-decoration: dotted underline ;
+  color: #355C7D;
+}
+
+@media screen and (max-width: 768px) {
     .record-header {
         flex-direction: column;
     }
