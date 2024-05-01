@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orders</title>
+    <link rel="stylesheet" href="orders.css">
+</head>
+<body>
+
+    <!-- Left Side Bar -->
+  <div class="sidebar">
+    <h2>Menu</h2>
+    <ul>
+        <li><a href="#">Categories</a>
+            <ul>
+                <li><a href="#">Submenu 1</a></li>
+                <li><a href="#">Submenu 2</a></li>
+                <li><a href="#">Submenu 3</a></li>
+            </ul>
+        </li>
+        <li><a href="#">Hot Sales</a>
+            <ul>
+                <li><a href="#">Submenu 1</a></li>
+                <li><a href="#">Submenu 2</a></li>
+                <li><a href="#">Submenu 3</a></li>
+            </ul>
+        </li>
+        <li><a href="#">Best Price</a>
+            <ul>
+                <li><a href="#">Submenu 1</a></li>
+                <li><a href="#">Submenu 2</a></li>
+                <li><a href="#">Submenu 3</a></li>
+            </ul>
+        </li>
+        <li><a href="#">Today's Offer</a>
+            <ul>
+                <li><a href="#">Submenu 1</a></li>
+                <li><a href="#">Submenu 2</a></li>
+                <li><a href="#">Submenu 3</a></li>
+            </ul>
+        </li>
+        <li><a href="#">Gifts</a>
+            <ul>
+                <li><a href="#">Submenu 1</a></li>
+                <li><a href="#">Submenu 2</a></li>
+                <li><a href="#">Submenu 3</a></li>
+            </ul>
+        </li>
+    </ul>
+</div>
+<!-- Header -->
+<header>
+  <div class="header-left">
+      <img src="./images/favicon.ico" alt="Store Logo"> <!-- Replace logo.png with your actual logo image -->
+  </div>
+  <div class="header-right">
+      <a href="#" class="social-icon" title="Instagram"><i class="fab fa-instagram"></i></a>
+      <a href="#" class="social-icon" title="Facebook"><i class="fab fa-facebook"></i></a>
+      <a href="#" class="social-icon" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+      <a href="#" class="social-icon" title="Twitter"><i class="fab fa-twitter"></i></a>
+  </div>
+  <h1>Welcome to Our Store</h1>
+</header>
+
+<!-- Nav Bar -->
+<nav>
+    <ul>
+        <li><a href="Home.html">Home</a></li>
+        <li><a href="orders.html" class="active">Orders</a></li>
+        <li><a href="payment.html">Payment</a></li>
+        <li><a href="settings.html">Settings</a></li>
+        <li><a href="">Favourite</a></li>
+        <li><a href="">Cart</a></li>
+        <li><a href="">Blog</a></li>
+        <li><a href="">Contact</a></li>
+        <li><a href="">About</a></li>
+        <li><a href="">Sign In</a></li>
+        <li><a href="">Sign Up</a></li>
+
+
+    </ul>
+</nav>
+<!-- Order Details -->
+
+<main>
+
+
+  <div class="page-content">
+
+
+      <div class="records table-responsive">
+
+          <div class="record-header">
+              <div class="add">
+                  <span>Entries</span>
+                  <select name="" id="">
+                      <option value="">ID</option>
+                  </select>
+              </div>
+
+              <div class="browse">
+                 <input type="search" placeholder="Search" class="record-search">
+                  <select name="" id="">
+                      <option value="">Status</option>
+                  </select>
+              </div>
+          </div>
+
+          <div>
+              <table width="100%">
+                  <thead>
+                      <tr>
+                          <th>#</th>
+                          <th><span class="las la-sort"></span> PRODUCTS</th>
+                          <th><span class="las la-sort"></span> TOTAL AMOUNT</th>
+                          <th><span class="las la-sort"></span> ORDER DATE</th>
+                          <th><span class="las la-sort"></span> STATUS</th>
+                          <th><span class="las la-sort"></span> ISSUE DATE</th>
+                      </tr>
+                  </thead>
+                  <tbody>
+                      <tr>
+                          <td>#5031</td>
+                          <td>
+                              <div class="products">
+                                 <div class="products-img bg-img" style="background-image: url(images/cotton-saree.jpg)"></div>
+                                  <div class="products-info">
+                                    <a href="https://amzn.in/d/g7yuXCJ" target="_blank"><h4>Cotton Saree</h4></a>
+                                    
+
+                                  </div>
+                              </div>
+                          </td>
+                          <td>
+                              ₹3700
+                          </td>
+                          <td>
+                              28 April, 2024
+                          </td>
+                          <td>
+                            <span class="Delivered">Delivered</span>
+                          </td>
+                          <td>
+                            25 April, 2024
+                          </td>
+                      </tr>
+                      <tr>
+                          <td>#5032</td>
+                          <td>
+                              <div class="products">
+                                 <div class="products-img bg-img" style="background-image: url(images/couples-ring.jpg)"></div>
+                                  <div class="products-info">
+                                      <a href="https://amzn.in/d/ezppCnN" target="_blank"><h4>Couple Ring</h4></a>
+                                  </div>
+                              </div>
+                          </td>
+                          <td>
+                              ₹363
+                          </td>
+                          <td>
+                            22 April, 2024
+                          </td>
+                          <td>
+                            <span class="Delivered">Delivered</span>
+                          </td>
+                          <td>
+                            24 April, 2024
+                          </td>
+                      </tr>
+                      <tr>
+                          <td>#5033</td>
+                          <td>
+                              <div class="products">
+                                 <div class="products-img bg-img" style="background-image: url(images/Anarkali.jpg)"></div>
+                                  <div class="products-info">
+                                      <a href="https://amzn.in/d/0SqhmCp" target="_blank"><h4>Anarkali</h4></a>
+                                  </div>
+                              </div>
+                          </td>
+                          <td>
+                              ₹271
+                          </td>
+                          <td>
+                              21 April, 2024
+                          </td>
+                          <td>
+                            <span class="Delivered">Delivered</span>
+                          </td>
+                          <td>
+                            16 April, 2024
+                          </td>
+                      </tr>
+                      <tr>
+                          <td>#5034</td>
+                          <td>
+                              <div class="products">
+                                 <div class="products-img bg-img" style="background-image: url(images/top.jpg)"></div>
+                                  <div class="products-info">
+                                    <a href="https://amzn.in/d/3TBAsm9" target="_blank"><h4>Top</h4></a>
+                                  </div>
+                              </div>
+                          </td>
+                          <td>
+                              ₹1710
+                          </td>
+                          <td>
+                              19 April, 2024
+                          </td>
+                          <td>
+                              <span class="Canceled">Canceled</span>
+                          </td>
+                          <td>
+                            29 April, 2024
+                          </td>
+                      </tr>
+                      <tr>
+                          <td>#5035</td>
+                          <td>
+                              <div class="products">
+                                 <div class="products-img bg-img" style="background-image: url(images/half-saree.jpg)"></div>
+                                  <div class="products-info">
+                                    <a href="https://amzn.in/d/bgrpIsJ" target="_blank"><h4>Half-saree</h4></a>
+                                  </div>
+                              </div>
+                          </td>
+                          <td>
+                              ₹771
+                          </td>
+                          <td>
+                              14 April, 2024
+                          </td>
+                          <td>
+                            <span class="Delivered">Delivered</span>
+                          </td>
+                          <td>
+                            31 April, 2024
+                          </td>
+                      </tr>
+                      <tr>
+                          <td>#5036</td>
+                          <td>
+                              <div class="products">
+                                 <div class="products-img bg-img" style="background-image: url(images/rose-gold.jpg)"></div>
+                                  <div class="products-info">
+                                    <a href="https://amzn.in/d/71osF5R" target="_blank"><h4>Rose Earings</h4></a>
+
+                                  </div>
+                              </div>
+                          </td>
+                          <td>
+                              ₹971
+                          </td>
+                          <td>
+                              13 April, 2024
+                          </td>
+                          <td>
+                              <span class="Canceled">Canceled</span>
+                          </td>
+                          <td>
+                            5 April, 2024
+                          </td>
+                      </tr>
+                      <tr>
+                          <td>#5037</td>
+                          <td>
+                            <div class="products">
+                              <div class="products-img bg-img" style="background-image: url(images/couples-ring.jpg)"></div>
+                               <div class="products-info">
+                                   <a href="https://amzn.in/d/ezppCnN" target="_blank"><h4>Couple Ring</h4></a>
+                               </div>
+                           </div>
+                          </td>
+                          <td>
+                              ₹3999
+                          </td>
+                          <td>
+                              9 April, 2024
+                          </td>
+                          <td>
+                              <span class="Delivered">Delivered</span>
+                          </td>
+                          <td>
+                            8 April, 2024
+                          </td>
+                      </tr>
+                      <tr>
+                          <td>#5038</td>
+                          <td>
+                            <div class="products">
+                              <div class="products-img bg-img" style="background-image: url(images/cotton-saree.jpg)"></div>
+                               <div class="products-info">
+                                 <a href="https://amzn.in/d/g7yuXCJ" target="_blank"><h4>Cotton Saree</h4></a>
+                                 
+
+                               </div>
+                           </div>
+                          </td>
+                          <td>
+                              ₹6917
+                          </td>
+                          <td>
+                              8 April, 2024
+                          </td>
+                          <td>
+                              <span class="Delivered">Delivered</span>
+                          </td>
+                          <td>
+                            21 April, 2024
+                          </td>
+                      </tr>
+                      <tr>
+                          <td>#5039</td>
+                          <td>
+                            <div class="products">
+                              <div class="products-img bg-img" style="background-image: url(images/top.jpg)"></div>
+                               <div class="products-info">
+                                 <a href="https://amzn.in/d/3TBAsm9" target="_blank"><h4>Top</h4></a>
+                               </div>
+                           </div>
+                          </td>
+                          <td>
+                              ₹2171
+                          </td>
+                          <td>
+                              2 April, 2024
+                          </td>
+                          <td>
+                              <span class="Delivered">Delivered</span>
+                          </td>
+                          <td>
+                            20 April, 2024
+                          </td>
+                      </tr>
+                      
+                  </tbody>
+              </table>
+          </div>
+
+      </div>
+  
+  </div>
+  
+</main>
+
+        <!-- Right Sidebar -->
+        <div class="right-sidebar">
+          <div class="offer-images">
+            <img src="./images/banner-1.jpg" alt="Offer 1">
+            <img src="./images/banner-2.jpg" alt="Offer 2">
+            <img src="./images/banner-3.jpg" alt="Offer 3">
+            <img src="./images/banner1.jpg" alt="Offer 4">
+            <img src="./images/banner2.jpg" alt="Offer 5">
+            <img src="./images/banner3.jpg" alt="Offer 6">
+            <img src="./images/banner4.jpg" alt="Offer 7">
+    
+          </div>
+        </div>
+
+    <!-- Footer -->
+
+    <footer>
+
+        <div class="footer-category">
+      
+          <div class="container">
+      
+            <h2 class="footer-category-title">Brand directory</h2>
+      
+            <div class="footer-category-box">
+      
+              <h3 class="category-box-title">Fashion :</h3>
+      
+              <a href="#" class="footer-category-link">T-shirt</a>
+              <a href="#" class="footer-category-link">Shirts</a>
+              <a href="#" class="footer-category-link">Shorts & Jeans</a>
+              <a href="#" class="footer-category-link">Jacket</a>
+              <a href="#" class="footer-category-link">Dress & Frock</a>
+              <a href="#" class="footer-category-link">Innerwear</a>
+              <a href="#" class="footer-category-link">Hosiery</a>
+      
+            </div>
+      
+            <div class="footer-category-box">
+              <h3 class="category-box-title">Footwear :</h3>
+      
+              <a href="#" class="footer-category-link">Sport</a>
+              <a href="#" class="footer-category-link">Formal</a>
+              <a href="#" class="footer-category-link">Boots</a>
+              <a href="#" class="footer-category-link">Casual</a>
+              <a href="#" class="footer-category-link">Cowboy Shoes</a>
+              <a href="#" class="footer-category-link">Safety Shoes</a>
+              <a href="#" class="footer-category-link">Party Wear Shoes</a>
+              <a href="#" class="footer-category-link">Branded</a>
+              <a href="#" class="footer-category-link">First Copy</a>
+              <a href="#" class="footer-category-link">Long Shoes</a>
+            </div>
+      
+            <div class="footer-category-box">
+              <h3 class="category-box-title">Jewellery :</h3>
+      
+              <a href="#" class="footer-category-link">Necklace</a>
+              <a href="#" class="footer-category-link">Earrings</a>
+              <a href="#" class="footer-category-link">Couple Rings</a>
+              <a href="#" class="footer-category-link">Pendants</a>
+              <a href="#" class="footer-category-link">Crystal</a>
+              <a href="#" class="footer-category-link">Bangles</a>
+              <a href="#" class="footer-category-link">Bracelets</a>
+              <a href="#" class="footer-category-link">Nosepin</a>
+              <a href="#" class="footer-category-link">Chain</a>
+            </div>
+      
+            <div class="footer-category-box">
+              <h3 class="category-box-title">Cosmetics :</h3>
+      
+              <a href="#" class="footer-category-link">Shampoo</a>
+              <a href="#" class="footer-category-link">Bodywash</a>
+              <a href="#" class="footer-category-link">Facewash</a>
+              <a href="#" class="footer-category-link">Makeup Kit</a>
+              <a href="#" class="footer-category-link">Liner</a>
+              <a href="#" class="footer-category-link">Lipstick</a>
+              <a href="#" class="footer-category-link">Perfume</a>
+              <a href="#" class="footer-category-link">Body Soap</a>
+              <a href="#" class="footer-category-link">Scrub</a>
+              <a href="#" class="footer-category-link">Hair Gel</a>
+              <a href="#" class="footer-category-link">Hair Colors</a>
+              <a href="#" class="footer-category-link">Hair Dye</a>
+              <a href="#" class="footer-category-link">Sunscreen</a>
+              <a href="#" class="footer-category-link">Skin Lotion</a>
+            </div>
+      
+          </div>
+      
+        </div>
+      
+        <div class="footer-bottom">
+      
+          <div class="container">
+            <p style="color: gray;">S2, Urapakkam, Chennai, Tamil Nadu
+              (638) 280-9217
+              Rajalakshmi245806@Gmail.Com</p>
+            <br>
+      
+            <img src="./images/payment.png" alt="Payment Method" class="payment-img">
+      
+            <p class="copyright">
+      
+              Copyright &copy; <a href="#">R</a> all rights reserved.
+            </p>
+      
+          </div>
+      
+        </div>
+      
+      </footer>
+</body>
+</html>
